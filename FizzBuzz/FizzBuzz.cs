@@ -13,6 +13,7 @@ namespace FizzBuzz
 
         public string Calculate(int p)
         {
+            if (isFizz(p) && isBuzz(p)) return FIZZ + BUZZ;
             if (isBuzz(p)) return BUZZ;
             if (isFizz(p)) return FIZZ;
             return p.ToString();

@@ -36,5 +36,11 @@ namespace FizzBuzzTest
         {
             _fizzBuzz.Calculate(5).Should().Be("Buzz");
         }
+
+        [Fact]
+        public void FifteenIsFizzBuzzBecauseItIsDivisibleByThreeAndFive()
+        {
+            _fizzBuzz.Calculate(15).Should().Be("FizzBuzz");
+        }
     }
 }
