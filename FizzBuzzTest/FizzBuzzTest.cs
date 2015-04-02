@@ -6,8 +6,9 @@ namespace FizzBuzzTest
     public class FizzBuzzTest
     {
         [Fact]
-        public void TestMethod1()
+        public void CanCreateFizzBuzzClass()
         {
+
         }
     }
 }
