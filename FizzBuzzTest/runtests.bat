@@ -1,0 +1,1 @@
+..\..\..\packages\xunit.runner.console.2.1.0-beta1-build2945\tools\xunit.console.exe FizzBuzzTest.dll -nunit results.xml -noshadow -nologo

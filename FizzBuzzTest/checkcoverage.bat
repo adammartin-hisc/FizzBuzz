@@ -1,0 +1,1 @@
+..\..\..\packages\OpenCover.4.5.3809-rc94\OpenCover.Console.exe -target:runtests.bat -register:user -filter:+[FizzBuzz]* && ..\..\..\packages\ReportGenerator.2.1.4.0\reportgenerator.exe -reports:results.xml -targetdir:coverage
