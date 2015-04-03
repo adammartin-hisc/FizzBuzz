@@ -1,1 +1,1 @@
-..\..\..\packages\NUnit.Console.3.0.0-beta-1\tools\nunit-console.exe FizzBuzzTest.dll
+..\..\..\packages\NUnit.Runners.Net4.2.6.4\tools\nunit-console.exe FizzBuzzTest.dll /noshadow
