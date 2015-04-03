@@ -1,9 +1,10 @@
 ﻿using System;
-using Xunit;
+using NUnit.Framework;
 using FluentAssertions;
 
 namespace FizzBuzzTest
 {
+    [TestFixture]
     public class FizzBuzzTest
     {
         private FizzBuzz.FizzBuzz _fizzBuzz;
@@ -13,31 +14,31 @@ namespace FizzBuzzTest
             _fizzBuzz = new FizzBuzz.FizzBuzz();
         }
 
-        [Fact]
+        [Test]
         public void OneIsOne()
         {
             _fizzBuzz.Calculate(1).Should().Be("1");
         }
 
-        [Fact]
+        [Test]
         public void TwoIsTwo()
         {
             _fizzBuzz.Calculate(2).Should().Be("2");
         }
 
-        [Fact]
+        [Test]
         public void ThreeIsFizzBecauseItIsDisableByThree()
         {
             _fizzBuzz.Calculate(3).Should().Be("Fizz");
         }
 
-        [Fact]
+        [Test]
         public void FiveIsBuzzBecauseItIsDivisibleByFive()
         {
             _fizzBuzz.Calculate(5).Should().Be("Buzz");
         }
 
-        [Fact]
+        [Test]
         public void FifteenIsFizzBuzzBecauseItIsDivisibleByThreeAndFive()
         {
             _fizzBuzz.Calculate(15).Should().Be("FizzBuzz");
